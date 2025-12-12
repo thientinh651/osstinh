@@ -27,4 +27,4 @@ jobs:
         local-dir: ./
         
         # Đường dẫn trên server Somee (Thường là /www.ten_mien.somee.com/)
-        server-dir: /
+        server-dir: /www.osstinh.somee.com
