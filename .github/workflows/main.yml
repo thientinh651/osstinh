@@ -17,9 +17,9 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: osstinh.somee.com
-        username: thientinh
-        password: Thientinh10
+        server: FTP_HOST
+        username: FTP_USER
+        password: FTP_PASS
         
         # Thư mục chứa file index.html trên GitHub của bạn
         # Nếu file index.html nằm ngay ngoài cùng, để là ./
