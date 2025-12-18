@@ -17,7 +17,8 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: FTP_HOST
+        server: osstinh.somee.com
+
         username: FTP_USER
         password: FTP_PASS
         
@@ -27,4 +28,4 @@ jobs:
         local-dir: ./
         
         # Đường dẫn trên server Somee (Thường là /www.ten_mien.somee.com/)
-        server-dir: /www.osstinh.somee.com/
+        server-dir: FTP_HOST
